@@ -2,9 +2,13 @@
 
 > **Independent third-party archive/analysis. Not affiliated with, endorsed by, or sponsored by The Go-Ahead Group Limited.**
 
-This repository archives the publicly published Terms of Use of the **Go-Ahead
-London** brand (operated by London General Transport Services Ltd, part of The
-Go-Ahead Group), with source-url and retrieval-date provenance, per
+This repository archives two publicly published documents: the **Go-Ahead
+London** brand's website Terms of Use (operated by London General Transport
+Services Ltd), and — the actual document that governs riding the bus, not just
+browsing the website — **The Go-Ahead Group's real Conditions of Carriage**
+(published via the Go South Coast subsidiary site, applying group-wide to Go-Ahead
+Group member companies' UK bus/coach services). Both carry source-url and
+retrieval-date provenance, per
 [ADR-2607110300](https://github.com/com-junkawasaki/root/blob/main/90-docs/adr/2607110300-cloud-itonami-lei-corporate-tos-catalog.edn)
 (`cloud-itonami-lei-corporate-tos-catalog`, `com-junkawasaki/root`). It is a read-only
 reference/archive repository — it does not act, propose, or execute anything on the
@@ -20,7 +24,7 @@ company's behalf, and is not a governed Advisor/Governor actor.
 
 ## Contents
 
-- `80-data/public/tos.journal.edn` — EDN quad-log of archived Terms of Use documents.
+- `80-data/public/tos.journal.edn` — EDN quad-log of both archived documents (website Terms of Use + the real Conditions of Carriage).
 - `NOTICE` — copyright/attribution statement for the archived third-party text.
 - `blueprint.edn` — machine-readable company identity record.
 
